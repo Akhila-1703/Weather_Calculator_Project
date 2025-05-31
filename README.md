@@ -1,5 +1,6 @@
-🌦️ Weather Calculator Project
+# Weather Calculator Project
 📌 Project Description
+
 The Weather Calculator Project is a Python-based application that combines two core utilities:
 
 A Basic Arithmetic Calculator
@@ -25,6 +26,7 @@ Designed to be configurable via a secure config.ini file.
 This project showcases an integration of GUI development, API consumption, email and SMS automation, and configuration management.
 
 ✅ Features Implemented
+
 ✔️ Tkinter GUI-based Calculator
 
 ✔️ Arithmetic operations with error handling
@@ -54,6 +56,7 @@ login = REDACTED
 password = REDACTED
 ```
 🔹 How to get these values:
+
 sender_email: Your email address (e.g., your_email@gmail.com)
 
 receiver_email: Email where the weather update should be sent.
@@ -71,6 +74,7 @@ smtp_port: Usually 465 (SSL) or 587 (TLS)
 login: Usually same as sender_email
 
 password:
+
 ⚠️ Use an App Password instead of your email login password
 
 For Gmail:
@@ -90,6 +94,7 @@ api_key = REDACTED
 location = REDACTED
 ```
 🔹 How to get these values:
+
 api_key:
 
 Sign up at OpenWeatherMap
@@ -99,6 +104,7 @@ Go to your API Keys Page
 Copy your default key
 
 location:
+
 City name like New York, Delhi, London
 
 📲 [twilio] Section – Send Weather Updates via SMS
@@ -110,6 +116,7 @@ from_number = REDACTED
 to_number = REDACTED
 ```
 🔹 How to get these values:
+
 sid & auth_token:
 
 Sign up at Twilio
@@ -134,6 +141,7 @@ Keep config.ini private or add it to .gitignore.
 Consider using .env files and the python-dotenv package for more security in deployment.
 ---
 🚀 How to Run
+
 1.Clone the repository:
 ```
 git clone https://github.com/Akhila-1703/Weather_Calculator_Project.git
@@ -144,11 +152,14 @@ cd Weather_Calculator_Project
 pip install -r requirements.txt
 ```
 3.Update config.ini with your credentials (see instructions above).
+
 4.Run the application:
 ```
 python main.py
 ```
 ---
  🛠️ Found a bug? Have a feature request? Feel free to open an issue or submit a pull request.
+ 
 📬 For questions or feedback, email: akhiladhachepally@gmail.com
+
 🙏  Thank you for using this Application!
