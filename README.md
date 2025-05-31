@@ -3,27 +3,27 @@
 
 The Weather Calculator Project is a Python-based application that combines two core utilities:
 
-A Basic Arithmetic Calculator
+1.A Basic Arithmetic Calculator
 
-Perform operations like addition, subtraction, multiplication, and division.
+ Perform operations like addition, subtraction, multiplication, and division.
 
-Built using Tkinter GUI for user-friendly interaction.
+ Built using Tkinter GUI for user-friendly interaction.
 
-Handles errors such as division by zero and invalid inputs.
+ Handles errors such as division by zero and invalid inputs.
 
-Supports decimal and integer values.
+ Supports decimal and integer values.
 
-Stores operation history.
+ Stores operation history.
 
-Live Weather Report Sender
+2.Live Weather Report Sender
 
-Fetches real-time weather data using the OpenWeatherMap API.
+ Fetches real-time weather data using the OpenWeatherMap API.
 
-Sends daily weather updates via Email and/or SMS using SMTP and Twilio API.
+ Sends daily weather updates via Email and/or SMS using SMTP and Twilio API.
 
-Designed to be configurable via a secure config.ini file.
+ Designed to be configurable via a secure config.ini file.
 
-This project showcases an integration of GUI development, API consumption, email and SMS automation, and configuration management.
+ This project showcases an integration of GUI development, API consumption, email and SMS automation, and configuration management.
 
 ✅ Features Implemented
 
